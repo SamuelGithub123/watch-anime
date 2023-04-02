@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {  } from 'react';
 import { IoMdContact } from "react-icons/io";
 import {BsDiscord, BsFacebook, BsReddit, BsInstagram} from "react-icons/bs"
 import {FaSnapchatGhost} from "react-icons/fa"

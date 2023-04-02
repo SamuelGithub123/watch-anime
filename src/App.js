@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { } from 'react';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import AnimeList from './pages/AnimeList';

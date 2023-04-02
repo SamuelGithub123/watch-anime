@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { } from 'react';
 import VideoHeader from '../components/VideoHeader';
 import EpisodeList from '../components/EpisodeList';
 import data from '../data';

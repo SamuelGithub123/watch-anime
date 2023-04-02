@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {  } from 'react';
 import one_piece from '../one piece.jpg';
 import Search from './Search';
 import { Link } from 'react-router-dom';

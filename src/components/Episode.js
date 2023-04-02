@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {  } from 'react';
 
 const Episode = ({id, image, link, title, episode}) => {
     return (
