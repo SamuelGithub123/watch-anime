@@ -5,7 +5,6 @@ import { FaSearch } from 'react-icons/fa';
 const Search = () => {
 
     const searchValue = React.useRef('');
-    const [searchTerm, setSearchTerm] = useState('a');
 
     function handleSubmit(e) {
         e.preventDefault()
