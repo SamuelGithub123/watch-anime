@@ -2,10 +2,6 @@ import React, { } from 'react';
 
 const Login = () => {
 
-    const handleSubmit = (e) => {
-        email.preventDefault();
-        console.log(email);
-    }
     return (
         <section className='auth-form-container'>
         <form className='login-form' onSubmit={handleSubmit}>

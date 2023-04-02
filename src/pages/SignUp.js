@@ -2,15 +2,11 @@ import React, { useState } from 'react';
 
 const SignUp = () => {
 
-    const handleSubmit = (e) => {
-        email.preventDefault();
-        console.log(email);
-    }
     return (
         <section className='auth-form-container'>
         <form className='signUp-form' onSubmit={handleSubmit}>
             <label htmlFor='name'>Full name</label>
-            <input value={name} name='name' id='name' placeholder='your name'/>
+            <input type='text' name='name' id='name' placeholder='your name'/>
             <label for='email'>email</label>
             <input type='email' placeholder='your email' id='email' name='email' />
             <label for='password'>password</label>
