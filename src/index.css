@@ -19,6 +19,11 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.color-black {
+  color: black;
+} 
+
 /*
 
 ======
@@ -129,8 +134,24 @@ VideoHeader
 
 */
 
+.video-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+
 .pageNumbers {
-    color: white;
+    color: black;
     display: inline;
     font-size: 20px;
     
@@ -141,11 +162,11 @@ VideoHeader
 }
 
 .word {
-    margin-right: 40%;
+    margin-right: 70%;
 }
 
 .numbers {
-    color: white;
+    color: black;
     display: block;
 }
 
@@ -161,6 +182,10 @@ EpisodeList
 
 .section {
     padding: 5rem 0;
+    padding: 5rem;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin: 2.5rem;
   }
 
   .episodeList-center {
@@ -211,6 +236,10 @@ Episode
     width:  400px;
     height: 500px;
     object-fit: cover;
+}
+
+.title {
+  color: yellowgreen;
 }
 
   /*
