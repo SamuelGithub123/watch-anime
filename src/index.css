@@ -1,13 +1,268 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Optima, sans-serif;
+    color: white;
 }
+
+h6 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/*
+
+======
+
+Navbar
+
+======
+
+*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-left {
+    margin-right: 5rem;
+}
+
+.icon {
+    color: white;
+    font-size: 30px;
+    display: inline;
+    
+}
+
+.login {
+    padding-left: 10px;
+    display: flex;
+    display: inline;
+
+}
+
+.logo {
+    height: 5rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 5%;
+
+}
+
+.navbar-middle {
+    margin-right: 40%;
+}
+
+.navbar-right {
+    display: block;
+
+}
+
+.icons {
+    color: white;
+    display: flex;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+  }
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+/*
+
+======
+
+Header
+
+======
+
+*/
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+.search {
+    display: inline-block;
+    margin-left: 20rem;
+}
+
+.rowC{
+    display: flex;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+}
+
+/*
+
+======
+
+VideoHeader
+
+======
+
+*/
+
+.pageNumbers {
+    color: white;
+    display: inline;
+    font-size: 20px;
+    
+}
+
+.videoHeader {
+    display: block;
+}
+
+.word {
+    margin-right: 40%;
+}
+
+.numbers {
+    color: white;
+    display: block;
+}
+
+/*
+
+======
+
+EpisodeList
+
+======
+
+*/
+
+.section {
+    padding: 5rem 0;
+  }
+
+  .episodeList-center {
+    margin: 0 auto;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-template-columns: auto auto auto;
+
+  }
+
+  /*
+
+======
+
+Episode
+
+======
+
+*/
+
+.episode {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .episode img {
+    height: 20rem;
+    object-fit: cover;
+  }
+  .episode-footer {
+    padding: 1.5rem;
+  }
+  .episode-footer h3,
+  .episode-footer h4 {
+    margin-bottom: 0.3rem; 
+    display: flex;
+    justify-content: center; 
+  }
+  .episode-footer h3 {
+    font-size: 2rem;
+  }
+
+  .img-container img {
+    float: left;
+    width:  400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+  /*
+
+======
+
+Login and Sign Up
+
+======
+
+*/
+
+.auth-form-container, .login-form, .signUp-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 2.5rem;
+    }
+  }
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+    color: yellow;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    margin-top: 2rem;
+  }
+  
+  .link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
