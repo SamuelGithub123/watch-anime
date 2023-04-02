@@ -13,7 +13,7 @@ const Search = () => {
     return (
         <section className='form'>
             <form className='search' onSubmit={handleSubmit}>
-                <div className='icon'>
+                <div className='icon-search'>
             <FaSearch />
             </div>
                 <input type='text' name='name' id='name' ref={searchValue} placeholder='Search'></input>

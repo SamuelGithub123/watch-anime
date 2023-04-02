@@ -69,6 +69,7 @@ Navbar
 
 .navbar-middle {
     margin-right: 40%;
+    margin-top: 1rem;
 }
 
 .navbar-right {
@@ -124,6 +125,12 @@ input {
     height: 30px;
 }
 
+.icon-search {
+  color: white;
+  font-size: 20px;
+  display: inline;
+  margin-right: 0.5rem;
+}
 /*
 
 ======
