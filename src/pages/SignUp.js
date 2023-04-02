@@ -4,7 +4,7 @@ const SignUp = () => {
 
     return (
         <section className='auth-form-container'>
-        <form className='signUp-form' onSubmit={handleSubmit}>
+        <form className='signUp-form'>
             <label htmlFor='name'>Full name</label>
             <input type='text' name='name' id='name' placeholder='your name'/>
             <label for='email'>email</label>

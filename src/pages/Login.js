@@ -4,7 +4,7 @@ const Login = () => {
 
     return (
         <section className='auth-form-container'>
-        <form className='login-form' onSubmit={handleSubmit}>
+        <form className='login-form'>
             <label for='email'>email</label>
             <input type='email' placeholder='your email' id='email' name='email' />
             <label for='password'>password</label>
