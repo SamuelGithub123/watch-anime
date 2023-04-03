@@ -15,16 +15,16 @@ const Header = () => {
             <section>
                 <ul list-header>
                     <li>
-                        <h5><Link to='/'>HOME</Link></h5>
+                        <h5><Link to='/' className='underline'>HOME</Link></h5>
                     </li>
                     <li>
-                        <h5><Link to='/animeList'>ANIME LIST</Link></h5>
+                        <h5><Link to='/animeList' className='underline'>ANIME LIST</Link></h5>
                     </li>
                     <li>
-                        <h5><Link to='/newSeason'>NEW SEASON</Link></h5>
+                        <h5><Link to='/newSeason' className='underline'>NEW SEASON</Link></h5>
                     </li>
                     <li>
-                        <h5><Link to='movies'>MOVIES</Link></h5>
+                        <h5><Link to='movies' className='underline'>MOVIES</Link></h5>
                     </li>
                 
                 </ul>

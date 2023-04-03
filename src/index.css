@@ -131,6 +131,11 @@ input {
   display: inline;
   margin-right: 0.5rem;
 }
+
+.underline:hover {
+  text-decoration: underline;
+}
+
 /*
 
 ======
@@ -162,6 +167,11 @@ VideoHeader
     display: inline;
     font-size: 20px;
     
+}
+
+.pageNumber:hover {
+  background-color: green;
+  color: white;
 }
 
 .videoHeader {

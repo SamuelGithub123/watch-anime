@@ -9,11 +9,11 @@ const VideoHeader = () => {
             </section>
             <section className='numbers'>
             <ul className='pageNumbers'>
-                <li><Link to='/' className='color-black'>1</Link></li>
-                <li><Link to='/page2' className='color-black'>2</Link></li>
-                <li><Link to='/page3' className='color-black'>3</Link></li>
-                <li><Link to='/page4' className='color-black'>4</Link></li>
-                <li><Link to='/page5' className='color-black'>5</Link></li>
+                <li><Link to='/' className='color-black pageNumber'>1</Link></li>
+                <li><Link to='/page2' className='color-black pageNumber'>2</Link></li>
+                <li><Link to='/page3' className='color-black pageNumber'>3</Link></li>
+                <li><Link to='/page4' className='color-black pageNumber'>4</Link></li>
+                <li><Link to='/page5' className='color-black pageNumber'>5</Link></li>
             </ul>
             </section>
             

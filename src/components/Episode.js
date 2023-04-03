@@ -2,7 +2,7 @@ import React, {  } from 'react';
 
 const Episode = ({id, image, link, title, episode}) => {
     return (
-        <article className='episode'>
+        <section className='episode'>
           <div className='img-container'>
             <a href={link}><img src={image} alt={title} /></a>
         </div>
@@ -10,7 +10,7 @@ const Episode = ({id, image, link, title, episode}) => {
           <h3 className='title'>{title}</h3>
           <h4>{episode}</h4>
         </div>
-    </article>
+    </section>
     )
 }
 
