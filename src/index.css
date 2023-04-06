@@ -59,14 +59,6 @@ Navbar
 
 }
 
-.logo {
-    height: 5rem;
-    border-radius: 1rem;
-    margin-top: 2rem;
-    margin-left: 5%;
-
-}
-
 .navbar-middle {
     margin-right: 40%;
     margin-top: 1rem;
@@ -104,16 +96,17 @@ Header
 
 */
 
-.navbar-header {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin-left: 2rem;
+.logo {
+  height: 5rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 5%;
+
 }
 
 .search {
-    display: inline-block;
-    margin-left: 20rem;
+  display: inline-block;
+  margin-left: 20rem;
 }
 
 .rowC{
@@ -132,8 +125,36 @@ input {
   margin-right: 0.5rem;
 }
 
+
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+
+
 .underline:hover {
   text-decoration: underline;
+  color: yellow;
+}
+
+.nav-toggle {
+  display: inline;
+  font-size: 1.5rem;
+  color: white;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.nav-toggle:hover {
+  color: yellow;
+  transform: rotate(90deg);
 }
 
 /*
@@ -250,7 +271,7 @@ Episode
 
   .img-container img {
     float: left;
-    width:  400px;
+    width: 400px;
     height: 500px;
     object-fit: cover;
 }
