@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { FaQuoteRight } from 'react-icons/fa';
 import dataAboutUs from '../data-AboutUs';
-import '../about-us.css';
+import '../styles/about-us.css';
 
 const AboutUs = () => {
 
