@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import {BsTelephone} from 'react-icons/bs'
+import React, { } from 'react';
 
 const ContactInfoItem = ({icon, text}) => {
     return (
