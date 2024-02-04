@@ -21,7 +21,7 @@ const Header = () => {
           </button>
           {showLinks &&
             <section>
-            <ul list-header>
+            <ul className='rowC'>
                 <li>
                     <h5><Link to='/' className='underline'>HOME</Link></h5>
                 </li>

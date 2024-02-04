@@ -105,16 +105,17 @@ Header
 }
 
 .search {
+  display: flex;
   display: inline-block;
   margin-left: 20rem;
 }
 
 .rowC{
-    display: flex;
+    display: block;
 }
 
 input {
-    width: 400px;
+    width: 20rem;
     height: 30px;
 }
 
@@ -227,7 +228,6 @@ EpisodeList
   }
 
   .episodeList-center {
-    margin: 0 auto;
     display: grid;
     row-gap: 2rem;
     column-gap: 2rem;
@@ -256,6 +256,7 @@ Episode
     height: 20rem;
     object-fit: cover;
   }
+  
   .episode-footer {
     padding: 1.5rem;
   }
