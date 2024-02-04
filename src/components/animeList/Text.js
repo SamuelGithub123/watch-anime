@@ -1,5 +1,4 @@
 import React, {  } from 'react';
-import data from '../animeList/data';
 
 const Text = () => {
 
