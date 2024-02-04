@@ -1,5 +1,6 @@
 import React, { } from 'react';
 import {useState} from "react";
+import axios from 'axios'
 
 const SignUp = () => {
 
@@ -8,7 +9,10 @@ const SignUp = () => {
     const [password, setPassword] = useState('');
 
     const registerUser = (e) => {
-        e.preventDefault()
+        e.preventDefault();
+        axios.post('http://localhost:3001/register', {name, email, password})
+        .then(result => console.log(result))
+        .catch(err => console.log(err))
     }
 
     return (
